@@ -1,0 +1,42 @@
+
+
+Test Approver: Sue Larmon-Fitzgerald <Sue.Larmon-Fitzgerald@symetra.com>; 
+Business Approver: Lee Fann <Lee.Fann@symetra.com>
+
+REL0006350
+
+switch between DEV and TIN environments
+URLString variable - UDP
+RESTRequest node
+create a new EG
+
+
+mqsichangeproperties DMB02 -e ESB_Venkat2 -o ExecutionGroup -n soapNodesUseEmbeddedListener -v true
+mqsireportproperties DMB02 -e ESB_Venkat2 -o ExecutionGroup -n soapNodesUseEmbeddedListener -a
+mqsireportproperties DMB02 -e ESB_Venkat2 -o HTTPConnector -a
+
+mqsisetdbparms DMB02 -n rest::myRESTVenkat -u s.ESB.DEV -p gp29dRT8 -k JU7p5431lONte9ti9ixkyh0s9Mzocd4Z
+
+mqsichangeproperties DMB02 -e ESB_Venkat2 -o ExecutionGroup -n soapNodesUseEmbeddedListener -v true
+mqsireload DMB02 -e ESB_Venkat2
+
+call mqsichangeproperties DMB02 -e ESB_Venkat2 -o HTTPConnector -n integratedWindowsAuthentication -v "NTLM"
+call mqsichangeproperties DMB02 -e ESB_Venkat2 -o ComIbmSocketConnectionManager -n allowedAuthTypes -v "IWA"
+
+TIN Contract numbers
+F6TK000001
+J6TK520347
+J6TK974713
+
+J6TK004035
+
+
+
+
+
+
+
+
+Time deposit scheme
+15 year PPF
+Nationl savings certificate
