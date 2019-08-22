@@ -1,0 +1,23 @@
+mqsireportproperties DMB02 -e nbA -o HTTPConnector -n port - 7815
+mqsireportproperties DMB02 -e nbA_S -o HTTPSConnector -n port - 7817
+mqsireportproperties DMB02 -e nbA_HF -o HTTPConnector -n port
+mqsireportproperties DMB02 -e nbA_HF_S -o HTTPSConnector -n port - 7844
+mqsireportproperties DMB02 -e nbA_TIN -o HTTPConnector -n port 7816
+mqsireportproperties DMB02 -e nbA_TIN_S -o HTTPSConnector -n port 7818
+mqsireportproperties DMB02 -e ESB_PolicyInquiryServices_EG -o HTTPConnector -n port 7828
+mqsireportproperties DMB02 -e ESB_PolicyInquiryServices_TIN_EG -o HTTPConnector -n port 7838
+
+mqsireportproperties DMB02 -e nbA_S -o ExecutionGroup -n soapNodesUseEmbeddedListener
+
+mqsichangeproperties DMB02 -e nbA_S -o HTTPConnector -n explicitlySetPortNumber -v 
+
+mqsireportproperties DMB02 -e ESB_Venkat -o HTTPConnector -n port 7800
+
+Copy new bar file
+Add queue name in .mq file
+Uncomment create mq objects section
+Add queue name property in properties file
+
+Adding lines in Azure Devops
+Change 2
+Adding line for Difference

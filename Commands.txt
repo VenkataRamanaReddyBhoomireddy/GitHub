@@ -1,0 +1,385 @@
+Microsoft Windows [Version 10.0.16299.1087]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\VE40020579>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\VE40020579>git clone https://VE40020579@dev.azure.com/VE40020579/PrimaryTest/_git/PrimaryTest
+Cloning into 'PrimaryTest'...
+fatal: unable to access 'https://dev.azure.com/VE40020579/PrimaryTest/_git/PrimaryTest/': OpenSSL SSL_connect: SSL_ERROR
+_SYSCALL in connection to dev.azure.com:443
+
+C:\Users\VE40020579>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\VE40020579>ping VE40020579@dev.azure.com
+Ping request could not find host VE40020579@dev.azure.com. Please check the name and try again.
+
+C:\Users\VE40020579>ping https://VE40020579@dev.azure.com
+Ping request could not find host https://VE40020579@dev.azure.com. Please check the name and try again.
+
+C:\Users\VE40020579>git config --global http.proxy proxy4.wipro.com:8080
+
+C:\Users\VE40020579>git clone https://VE40020579@dev.azure.com/VE40020579/PrimaryTest/_git/PrimaryTest
+Cloning into 'PrimaryTest'...
+fatal: NotSupportedException encountered.
+   The ServicePointManager does not support proxies with the proxy4.wipro.com scheme.
+Password for 'https://VE40020579@dev.azure.com':
+fatal: NotSupportedException encountered.
+   The ServicePointManager does not support proxies with the proxy4.wipro.com scheme.
+fatal: Authentication failed for 'https://dev.azure.com/VE40020579/PrimaryTest/_git/PrimaryTest/'
+
+C:\Users\VE40020579>git clone https://VE40020579@dev.azure.com/VE40020579/PrimaryTest/_git/PrimaryTest
+Cloning into 'PrimaryTest'...
+fatal: NotSupportedException encountered.
+   The ServicePointManager does not support proxies with the proxy4.wipro.com scheme.
+Password for 'https://VE40020579@dev.azure.com':
+fatal: NotSupportedException encountered.
+   The ServicePointManager does not support proxies with the proxy4.wipro.com scheme.
+fatal: Authentication failed for 'https://dev.azure.com/VE40020579/PrimaryTest/_git/PrimaryTest/'
+
+C:\Users\VE40020579>git clone https://VE40020579@dev.azure.com/VE40020579/PrimaryTest/_git/PrimaryTest
+Cloning into 'PrimaryTest'...
+fatal: NotSupportedException encountered.
+   The ServicePointManager does not support proxies with the proxy4.wipro.com scheme.
+Password for 'https://VE40020579@dev.azure.com':
+fatal: NotSupportedException encountered.
+   The ServicePointManager does not support proxies with the proxy4.wipro.com scheme.
+fatal: Authentication failed for 'https://dev.azure.com/VE40020579/PrimaryTest/_git/PrimaryTest/'
+
+C:\Users\VE40020579>git config --global http.proxy http://proxy4.wipro.com:8080
+
+C:\Users\VE40020579>git clone https://VE40020579@dev.azure.com/VE40020579/PrimaryTest/_git/PrimaryTest
+Cloning into 'PrimaryTest'...
+remote: Azure Repos
+remote: Found 7 objects to send. (93 ms)
+Unpacking objects: 100% (7/7), done.
+
+C:\Users\VE40020579>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\VE40020579>cd C:\Users\VE40020579\PrimaryTest
+
+C:\Users\VE40020579\PrimaryTest>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\VE40020579\PrimaryTest>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   MQ Notes.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\VE40020579\PrimaryTest>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\VE40020579\PrimaryTest>git push
+fatal: unable to access 'https://dev.azure.com/VE40020579/PrimaryTest/_git/PrimaryTest/': Received HTTP code 407 from pr
+oxy after CONNECT
+
+C:\Users\VE40020579\PrimaryTest>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\VE40020579\PrimaryTest>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\VE40020579\PrimaryTest>pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\VE40020579\PrimaryTest>cd
+C:\Users\VE40020579\PrimaryTest
+
+C:\Users\VE40020579\PrimaryTest>cd _git
+The system cannot find the path specified.
+
+C:\Users\VE40020579\PrimaryTest>cd \_Git
+The system cannot find the path specified.
+
+C:\Users\VE40020579\PrimaryTest>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\VE40020579\PrimaryTest>cd D:\Git
+
+C:\Users\VE40020579\PrimaryTest>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\VE40020579\PrimaryTest>D:
+
+D:\Git>cd D:\Git
+
+D:\Git>git init
+Initialized empty Git repository in D:/Git/.git/
+
+D:\Git>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        22800.txt
+        22812.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Git>git clone https://VE40020579@dev.azure.com/VE40020579/PrimaryTest/_git/Repo2
+Cloning into 'Repo2'...
+fatal: unable to access 'https://dev.azure.com/VE40020579/PrimaryTest/_git/Repo2/': Received HTTP code 407 from proxy af
+ter CONNECT
+
+D:\Git>git config --global http.proxy http://proxy4.wipro.com:8080
+
+D:\Git>git clone https://VE40020579@dev.azure.com/VE40020579/PrimaryTest/_git/Repo2
+Cloning into 'Repo2'...
+fatal: unable to access 'https://dev.azure.com/VE40020579/PrimaryTest/_git/Repo2/': Received HTTP code 407 from proxy af
+ter CONNECT
+
+D:\Git>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        22800.txt
+        22812.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Git>git config --global http.proxy http://proxy4.wipro.com:8080
+
+D:\Git>git clone https://VE40020579@dev.azure.com/VE40020579/PrimaryTest/_git/Repo2
+Cloning into 'Repo2'...
+remote: Azure Repos
+remote: Found 3 objects to send. (39 ms)
+Unpacking objects: 100% (3/3), done.
+
+D:\Git>cd repo2
+
+D:\Git\Repo2>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        22800.txt
+        22812.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Git\Repo2>git commit
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+        22800.txt
+        22812.txt
+
+nothing added to commit but untracked files present
+
+D:\Git\Repo2>git push
+Everything up-to-date
+
+D:\Git\Repo2>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        22800.txt
+        22812.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Git\Repo2>git add 22800.txt
+
+D:\Git\Repo2>git add 22812.txt
+
+D:\Git\Repo2>git commit
+[master 6da3979] Adding 2 files
+ Committer: VenkataRamanaReddy Bhoomireddy (Financial Services) <VE40020579@wipro.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 61 insertions(+)
+ create mode 100644 22800.txt
+ create mode 100644 22812.txt
+
+D:\Git\Repo2>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+D:\Git\Repo2>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.13 KiB | 105.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: Analyzing objects... (4/4) (5 ms)
+remote: Storing packfile... done (73 ms)
+remote: Storing index... done (35 ms)
+To https://dev.azure.com/VE40020579/PrimaryTest/_git/Repo2
+   0d4b51f..6da3979  master -> master
+
+D:\Git\Repo2>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+D:\Git\Repo2>git branch
+* master
+
+D:\Git\Repo2>git pull origin master
+From https://dev.azure.com/VE40020579/PrimaryTest/_git/Repo2
+ * branch            master     -> FETCH_HEAD
+Updating 6da3979..eb6b770
+Fast-forward
+ 22812.txt | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+D:\Git\Repo2>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+D:\Git\Repo2>git diff --stat
+
+D:\Git\Repo2>git diff --summary
+
+D:\Git\Repo2>git diff --summary FETCH_HEAD
+
+D:\Git\Repo2>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Sample.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Git\Repo2>git add Sample.txt
+
+D:\Git\Repo2>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Sample.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Sample2.txt
+
+
+D:\Git\Repo2>git add Sample2.txt
+
+D:\Git\Repo2>git commit Sample2.txt
+[master 07fb3d2] Committing Sample2 from local
+ Committer: VenkataRamanaReddy Bhoomireddy (Financial Services) <VE40020579@wipro.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Sample2.txt
+
+D:\Git\Repo2>git push Sample2.txt
+fatal: invalid gitfile format: Sample2.txt
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+D:\Git\Repo2>git push
+To https://dev.azure.com/VE40020579/PrimaryTest/_git/Repo2
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://VE40020579@dev.azure.com/VE40020579/PrimaryTest/_git/Repo2'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+D:\Git\Repo2>git commit
+[master 25343b7] sample commit
+ Committer: VenkataRamanaReddy Bhoomireddy (Financial Services) <VE40020579@wipro.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Sample.txt
+
+D:\Git\Repo2>git push
+To https://dev.azure.com/VE40020579/PrimaryTest/_git/Repo2
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://VE40020579@dev.azure.com/VE40020579/PrimaryTest/_git/Repo2'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+D:\Git\Repo2>

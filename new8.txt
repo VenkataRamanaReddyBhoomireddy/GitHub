@@ -1,0 +1,53 @@
+Azure Integration services :
+---------------------------
+API Management, which provides an API service.
+Logic Apps, supporting orchestration of business processes, workflows and more. BPM
+Service Bus, providing reliable enterprise messaging. IIB and MQ
+Event Grid, which allows raising and delivering events
+
+AWS Application Integration:
+----------------------------
+Step Functions 
+Amazon MQ
+Simple Notification Service
+Simple Queue Service
+SWF - Simple WorkFlow Service - Multi Stage Message Processing System
+
+8f3e4eef-b0a1-47e6-a2b4-a5d68bb9521d
+1c1875d9-2bc3-4937-985b-4676c7f28733
+
+policy inquiry prd release -  this sunday night
+				remove GMV code..
+1203 reply identifier error
+LCW_EG delete in DEV
+---------------------------
+Policy inquiry error emails - - check email - time out error 
+Monday 10 AM error 
+policy inquiry QA 
+			PRD - Approved
+
+1203 unconvertable character
+1203 data base - meeting link
+
+August 3 GMV code to production. Need to submit release request.
+Update IIB code changes sheet.
+Remove NBA.SDS.1203.OUT.B Connection
+
+FST Bill number
+1203 database
+
+Agent inquiry
+Policy Inquiry GMV in code changes sheet - done
+IIB stats - done
+
+babai
+uma shankar
+srini
+prepare
+lokesh
+
+23 March 2015 2.5
+19 May 2017
+H Feb 2017 2.5 to 3.5
+
+7010787411

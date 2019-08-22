@@ -1,0 +1,40 @@
+Agent Inquiry Clump code  - done - September to QA
+FST Policy Inquiry Bill number BIN - done - View is not ready yet
+
+August 3 GMV code to production. Need to submit release request. Saturday 6:30PM PST
+Let us create release request on july 30 or 31
+
+
+Create build folder for both QA and PRD
+1203 Queue hot fix queue.
+
+7661842944
+
+8919473868
+
+7680944277
+
+Get Lab quote and C2 interfaces code
+--------------------------------
+
+
+Azure devops project
+--------------------
+Add My Name in Azure devops
+DTPS_Wipro
+ESB 
+
+Error Email Security profile related issue.
+
+https://www.katacoda.com/courses/git/1
+https://www.youtube.com/watch?v=H-R2bCXfz8I
+https://marketplace.visualstudio.com/items?itemName=ms-vsts.ibm-integration-bus
+https://docs.microsoft.com/en-us/azure/devops/java/labs/eclipsegit/?view=azure-devops
+https://aws.amazon.com/premiumsupport/knowledge-center/recover-access-lost-key-pair/
+https://topgear-training-gitlab.wipro.com/AS831881/AWS_SAA-Lab04/blob/master/SAA-Lab04.md
+https://github.com/ashydv/aws-labs
+
+https://dev.azure.com/VE40020579/
+
+9590687691
+MNAKUM

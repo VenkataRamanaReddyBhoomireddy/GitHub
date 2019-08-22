@@ -1,0 +1,217 @@
+ITIL - my wipro
+Lean - my wipro
+Q101 - my wipro
+COOC in ITMS portal - mail
+Infosec awareness - mail
+HIPAA - screenshot
+
+To raise helpline ticket : https://helpline.wipro.com
+For Software Installations : desksupport.wipro.com
+\\prdhilfs02\install
+
+Symetra AD ID : VENBHO
+Password : cQyB?tet627C
+
+OBULIBM@97057
+
+bigmac1
+
+s.ESB.DEV - gp29dRT8
+gp29dRT8 
+ 
+J6TK111001
+
+App Connect 11 Version research
+\\prdhilfs02\install\IBM WebSphere Message Broker\IACv11
+
+Check and confirm Deployment folder for policy Inquiry
+ 
+Azure Devops- Plugin for git toolkit
+
+Lab quote and C2 interfaces code - compare bar files
+
+
+
+REL0007635 - GMV code Roll back QUA
+
+REL0007782
+
+REL0007831 - GMV code PRD deployment
+
+INC0206192 - mailbox issue Incident
+
+REL0007559 - Policy inquiry federal and state tax - QA
+REL0007560 - PRD
+
+1203 meeting url.
+
+REL0007602 - 1203 remove queue connection Release request.
+			confirm CCSID code and build the bar file.
+
+
+30 may 2019
+-------------
+
+delete lcw eg in dev - Done
+policy inquiry PRD release request - REL0007460
+make bar file with out GMV code, get the last deployment folder and make rollback bar - done
+.net update in qa - validate flows in working hours
+
+validate dev - done
+prd release
+iib stats- done
+
+
+
+REL0007097 - 1203 PRD Release request
+
+REL0007407 - Policy Inquiry FST release request - QA
+
+
+16 May 2019 :
+------------
+
+jabber issue - service request for wintel
+
+Jabber reinstall SR... REQ0076421
+policy inquiry - deploy to Dev and monitor - done
+ODBC - monitor the logs once the change is done in QA and PRD
+	open file location of odbc, shift+rightclick on odbc, open as different user,
+	provide new credentials
+
+09 May 2019 :
+----------------
+
+REL0006637 Agent inquiry QUA release request.
+Submit request for prod once Ravi confirms
+
+8 PM
+
+REL0007324
+
+qua FRIDAY 10 AM PST REQ0076170
+PRD SUNDAY 2 AM PST REQ0076171
+
+Crump1203Interface.DEV
+AgencyWorks1203Interface.DEV
+Policy Iquiry - FST and TVA_Request_Response
+
+BI_SDS_PrvsnU01
+BI_SDS_PrvsnU01
+
+Test Approver : 
+Business approver : Lee Fann
+
+
+02 may 2019 :
+----------
+Router flow failure operation in mail
+Keep jabber logged in
+Add basic business data in policy inquiry
+shift 1203 interface error to evening 06:30-- Done
+iib alternative in AWS and IBM cloud
+--------------------------------
+
+20052265 - Rajeev EMP ID
+
+ctg gateway - CICS Transaction gateway
+db2 connect
+
+clear odbc 32  reg directory - regedit
+lab quote transaction logging
+C2 update publisher - pub sub
+policy inquiry changes - remove business data
+
+9110763601
+
+Omaha (Regular)
+VPN Username : VBhoomireddy
+Password : venkat@97057
+171.74.225.5 - pulse secure
+
+Sunguard (DR)
+VPN User ID: bvenkat
+Password: Bvenkat%
+
+DEVOMAJMP02 10.92.192.73 - jump server
+
+DEVOMAMB03  IIB dev IP : 10.92.2.77
+DEVHILMB04 - 10.92.2.73
+
+M1ddle3are
+
+Service Now URL: https://symetra.service-now.com/
+https://symetra.service-now.com/nav_to.do?uri=%2Fsp
+Symetra password change URL: https://password.symetra.com/sspr
+Symetra SharePoint URL : http://sharepoint/it/entsvs/middleware/SitePages/Home.aspx
+https://swiftnet.corp.symetra.com/it/entsvs/middleware/Interface%20Statistics/Forms/AllItems.aspx
+
+REL0006906 - 1203 qua
+
+REL0006359
+
+Symetra Security Questions
+
+1. What is your favourite food - biryani
+2. What high school did you attend - zphs
+3. What city/town were you born in - kadapa
+4. What is your favourite professional sport to watch - cricket
+5. What is your favourite sport team - india
+
+Symetra IT desk questions
+
+1. What was your childhood nick name - james bond
+2. What school did you attend for sixth grade - zphs
+3. Which phone number did you remember most from your childhood - idea
+
+
+Y can not use direct mqGet node instead of 2 flows
+Queue name on MQInput node.
+Y Error handling in Request flows
+
+1203
+contract
+
+investment declaration
+http://202.54.219.55:85/Payroll/
+user id : CON9249
+password : 1989
+domain : PCI
+select user : Employee
+
+
+uanepf@epfindia.gov.in
+101102643828
+
+
+cVaAIV#%$067
+101383969123
+Ramanareddy@97057
+
+
+
+Ramanareddy@97057
+Ramanareddy@23303
+Ramanareddy@95059
+Ramanareddy@68859
+Ramanareddy@99126
+Ramanareddy@9912
+Ramireddy@97057
+Ramireddy@23303
+Ramireddy@95059
+Ramireddy@68859
+Ramireddy@99126
+Ramireddy@9912
+Venkat@97057
+Venkat@23303
+Venkat@95059
+Venkat@68859
+Venkat@99126
+Venkat@9912
+
+Reddy@97057
+Reddy@23303
+Reddy@95059
+Reddy@68859
+Reddy@99126
+Reddy@9912
